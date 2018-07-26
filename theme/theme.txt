@@ -1,4 +1,4 @@
-# Arch-Silence theme for GRUB2
+# Debian-Silence theme for GRUB2
 #
 # Copyright (C) 2015 Filippo Ghibellini
 
@@ -6,7 +6,7 @@
 title-text: ""
 desktop-color: "#333"
 
-terminal-font: "Dejavu Sans Regular 12"
+terminal-font: "Unicode 12"
 terminal-left: "0"
 terminal-top: "0"
 terminal-width: "100%"
@@ -27,23 +27,23 @@ terminal-border: "0"
     highlight_style = "progress_bar/progress_bar_hl_*.png"
 }
 
-# arch logo
+#debian logo
 + image {
 	top = 50%-200
-	left = 50%-75
-    file = "arch_logo.png"
+	left = 50%-150
+    file = "debian_logo.png"
 }
 
 #boot menu
 + boot_menu {
-	left = 50%-150
+	left = 50%-200
 	width = 500
-	top = 50%+100
+	top = 50%+150
 	height = 300
 
-	item_font = "DejaVu Sans Bold 14"
+	item_font = "Unicode 14"
 	item_color = "#999"
-	selected_item_font = "DejaVu Sans Bold 14"
+	selected_item_font = "Unicode 14"
 	selected_item_color= "#fff"
 
 	item_height = 26
